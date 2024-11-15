@@ -6,19 +6,19 @@ const Navbar = () => {
 		<header className="flex gap-y-2.5 xl:flex-row flex-col items-center justify-between xl:w-[1148px] xl:h-[74px] mx-auto gap-x-1 xl:gap-x-8">
 			<h1 className="text-3xl font-semibold">Saadi</h1>
 			<nav>
-				<ul className="flex text-sm xl:text-base font-medium gap-x-3 xl:gap-x-[24px]">
+				<ul className="flex text-xs xl:text-base font-medium gap-x-2 xl:gap-x-[24px]">
 					<li>
-						<a className="flex gap-x-1.5 items-center cursor-pointer">
+						<a className="flex xl:gap-x-1.5 items-center cursor-pointer">
 							Courses <HiChevronDown className="text-lg" />
 						</a>
 					</li>
 					<li>
-						<a className="flex gap-x-1.5 items-center cursor-pointer">
+						<a className="flex xl:gap-x-1.5 items-center cursor-pointer">
 							Instructors <HiChevronDown className="text-lg" />
 						</a>
 					</li>
 					<li>
-						<a className="flex gap-x-1.5 items-center">
+						<a className="flex xl:gap-x-1.5 items-center">
 							Blogs <HiChevronDown className="text-lg" />
 						</a>
 					</li>

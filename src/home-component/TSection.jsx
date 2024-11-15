@@ -36,7 +36,7 @@ const TSection = () => {
 			</div>
 			{/* 2nd section */}
 			<div>
-				<div className="relative w-[585px] h-[600px] object-cover rounded-3xl">
+				<div className="relative xl:w-[585px] xl:h-[600px] object-cover rounded-3xl">
 					<img
 						src={hero}
 						alt=""
