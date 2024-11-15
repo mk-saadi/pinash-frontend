@@ -5,7 +5,7 @@ import leaf from "../assets/Frame.png";
 const Hero = () => {
 	return (
 		<div className="bg-[#F0F1EE]">
-			<div className="flex flex-row gap-x-[72px] items-center justify-center mx-auto w-[1148px]">
+			<div className="flex flex-col xl:flex-row gap-x-[72px] items-center justify-center mx-auto xl:w-[1148px]">
 				<div className="">
 					<div className="flex items-center justify-start gap-x-4">
 						<ul>

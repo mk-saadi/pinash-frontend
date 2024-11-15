@@ -3,10 +3,10 @@ import { HiChevronDown } from "react-icons/hi2";
 
 const Navbar = () => {
 	return (
-		<header className="flex items-center justify-between max-w-6xl h-[74px] mx-auto gap-x-8">
+		<header className="flex gap-y-2.5 xl:flex-row flex-col items-center justify-between xl:w-[1148px] xl:h-[74px] mx-auto gap-x-1 xl:gap-x-8">
 			<h1 className="text-3xl font-semibold">Saadi</h1>
 			<nav>
-				<ul className="flex text-base font-medium gap-x-[24px]">
+				<ul className="flex text-sm xl:text-base font-medium gap-x-3 xl:gap-x-[24px]">
 					<li>
 						<a className="flex gap-x-1.5 items-center cursor-pointer">
 							Courses <HiChevronDown className="text-lg" />
@@ -40,7 +40,7 @@ const Navbar = () => {
 					</li>
 				</ul>
 			</nav>
-			<div className="flex items-center justify-center gap-x-4">
+			<div className="items-center justify-center hidden xl:flex gap-x-4">
 				<button className="text-til">
 					<HiOutlineShoppingBag className="text-[28px]" />
 				</button>

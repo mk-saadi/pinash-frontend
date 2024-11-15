@@ -5,8 +5,8 @@ import { PiDiscordLogoFill } from "react-icons/pi";
 const Footer = () => {
 	return (
 		<div className="bg-[#F4F4F6]">
-			<div className="mx-auto pt-28 pb-36 w-[1148px] ">
-				<div className="text-[#000000B2] flex justify-between items-start text-base">
+			<div className="mx-auto pt-28 pb-36 xl:w-[1148px] ">
+				<div className="text-[#000000B2] flex xl:flex-row flex-col justify-between items-start text-base">
 					<nav className="flex flex-col justify-start gap-y-3">
 						<h6 className="text-[13px] text-[#00000080] mb-5">Categories</h6>
 						<a>Nutrition and diet</a>

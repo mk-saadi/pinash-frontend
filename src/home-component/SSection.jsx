@@ -12,8 +12,8 @@ const SSection = () => {
 
 	return (
 		<div
-			// className="mx-auto w-[1148px]"
-			className="mx-auto w-[1148px] relative"
+			// className="mx-auto xl:w-[1148px]"
+			className="mx-auto xl:w-[1148px] relative"
 		>
 			<div className="mb-[60px]">
 				<h4 className="text-[40px] font-bold">Our popular courses</h4>

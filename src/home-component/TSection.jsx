@@ -4,7 +4,7 @@ import check from "../assets/check.png";
 
 const TSection = () => {
 	return (
-		<div className="flex flex-row gap-x-[161px] items-start justify-center mx-auto w-[1148px]">
+		<div className="flex flex-col xl:flex-row gap-x-[161px] items-start justify-center mx-auto xl:w-[1148px]">
 			{/* 1st section */}
 			<div className="max-w-[424px]">
 				<h4 className="text-[40px] font-bold">We provide...</h4>
