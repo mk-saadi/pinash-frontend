@@ -1,0 +1,80 @@
+[
+	{
+		"id": 1,
+		"img": "/assets/1card.jpeg",
+		"authorPic": "/assets/kilian.png",
+		"badge1": "Beginner",
+		"badge2": "Nutrition and Diet",
+		"title": "Foundation of Sleep: Sleep Science and Sleep Disorders",
+		"rating": 556,
+		"time": "6h 34m",
+		"lessons": "3 Lessons",
+		"author": "Kilian Murphy",
+		"price": "40"
+	},
+	{
+		"id": 2,
+		"img": "/assets/2card.jpeg",
+		"authorPic": "/assets/sarah.jpeg",
+		"badge1": "Intermediate",
+		"badge2": "Health and Wellness",
+		"title": "Parenting in the Digital Age: Navigating Screen Time",
+		"rating": 556,
+		"time": "6h 34m",
+		"lessons": "3 Lessons",
+		"author": "Kilian Murphy",
+		"price": "50"
+	},
+	{
+		"id": 3,
+		"img": "/assets/3card.jpeg",
+		"authorPic": "/assets/luna.jpeg",
+		"badge1": "Beginner",
+		"badge2": "Nutrition and Diet",
+		"title": "Holistic Health: Integrating Mind, Body, and Spirit",
+		"rating": 556,
+		"time": "6h 34m",
+		"lessons": "3 Lessons",
+		"author": "Kilian Murphy",
+		"price": "Enrolled"
+	},
+	{
+		"id": 4,
+		"img": "/assets/4card.jpeg",
+		"authorPic": "/assets/kate.jpeg",
+		"badge1": "Beginner",
+		"badge2": "Nutrition and Diet",
+		"title": "Introduction to healthy Diet and Nutrition",
+		"rating": 556,
+		"time": "6h 34m",
+		"lessons": "3 Lessons",
+		"author": "Kilian Murphy",
+		"price": "Enrolled"
+	},
+	{
+		"id": 5,
+		"img": "/assets/1card.jpeg",
+		"authorPic": "/assets/kilian.png",
+		"badge1": "Beginner",
+		"badge2": "Nutrition and Diet",
+		"title": "Foundation of Sleep: Sleep Science and Sleep Disorders",
+		"rating": 556,
+		"time": "6h 34m",
+		"lessons": "3 Lessons",
+		"author": "Kilian Murphy",
+		"price": "40"
+	},
+	{
+		"id": 6,
+		"img": "/assets/2card.jpeg",
+		"authorPic": "/assets/luna.jpeg",
+		"badge1": "Beginner",
+		"badge2": "Nutrition and Diet",
+		"title": "Parenting in the Digital Age: Navigating Screen Time",
+		"rating": 556,
+		"time": "6h 34m",
+		"lessons": "3 Lessons",
+		"author": "Kilian Murphy",
+		"price": "Enrolled"
+	}
+]
