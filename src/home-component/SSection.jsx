@@ -13,11 +13,11 @@ const SSection = () => {
 	return (
 		<div
 			// className="mx-auto xl:w-[1148px]"
-			className="mx-auto xl:w-[1148px] relative"
+			className="mx-auto xl:w-[1148px] relative px-1 xl:px-0"
 		>
-			<div className="mb-[60px]">
-				<h4 className="text-[40px] font-bold">Our popular courses</h4>
-				<p className="mt-6 text-base max-w-prose">
+			<div className="xl:mb-[60px] mb-[70px]">
+				<h4 className="text-3xl xl:text-[40px] font-bold">Our popular courses</h4>
+				<p className="mt-3 text-sm xl:mt-6 xl:text-base xl:max-w-prose">
 					By taking proactive steps to nurture mental health, we can enhance our quality of life,
 					build resilience, and foster a sense of inner peace and balance
 				</p>

@@ -50,7 +50,7 @@ const Hero = () => {
 					</div>
 					<div className="absolute bottom-0 w-full p-2 pb-2 overflow-hidden rounded-2xl">
 						<div className="flex bg-[#FFFFFFB2] rounded-2xl backdrop-blur-sm flex-col">
-							<div className="flex xl:px-8 px-1 xl:py-[26px] py-2 gap-x-2 xl:gap-x-6 justify-center items-center">
+							<div className="flex xl:px-8 px-2 xl:py-[26px] py-5 gap-x-2 xl:gap-x-6 justify-center items-center">
 								<p className="text-2xl xl:text-5xl font-[900]">12,000+</p>
 								<div className="xl:h-[40px] h-[30px] w-px bg-[#00000033]" />
 								<p className="text-sm xl:text-2xl">Happy learners rely on us regularly</p>

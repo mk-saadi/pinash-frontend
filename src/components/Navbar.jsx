@@ -6,7 +6,7 @@ const Navbar = () => {
 		<header className="flex gap-y-2.5 xl:flex-row flex-col items-center justify-between xl:w-[1148px] xl:h-[74px] mx-auto gap-x-1 xl:gap-x-8">
 			<h1 className="text-3xl font-semibold">Saadi</h1>
 			<nav>
-				<ul className="flex text-xs xl:text-base font-medium gap-x-2 xl:gap-x-[24px]">
+				<ul className="flex text-xs xl:text-base font-medium gap-x-2 xl:gap-x-[24px] mb-3 xl:mb-0">
 					<li>
 						<a className="flex xl:gap-x-1.5 items-center cursor-pointer">
 							Courses <HiChevronDown className="text-lg" />
