@@ -134,7 +134,7 @@ const Items = ({ data }) => {
 							{data?.badge2}
 						</p>
 					</div>
-					<h1 className="mt-2 text-2xl font-semibold tracking-tighter xl:mt-4 line-clamp-2">
+					<h1 className="mt-2 text-2xl font-semibold tracking-tight xl:mt-4 line-clamp-2">
 						{data?.title}
 					</h1>
 					<div className="flex items-center justify-start mt-2 mb-8 xl:mt-4 gap-x-2 xl:mb-14">

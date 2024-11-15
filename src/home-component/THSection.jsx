@@ -18,8 +18,8 @@ const THSection = () => {
 
 	return (
 		<div>
-			<div className="">
-				<h4 className="text-[40px] font-semibold text-center leading-[48px] mb-[60px]">
+			<div className="px-1 xl:px-0">
+				<h4 className="text-3xl xl:text-[40px] font-semibold text-center xl:leading-[48px] leading-[40px] mb-10 xl:mb-[60px]">
 					Learners love EduPath. See why
 					<br /> they rate us 4.9 out of 5
 				</h4>
@@ -39,14 +39,18 @@ const THSection = () => {
 									spaceBetween: 2,
 								},
 								768: {
-									slidesPerView: 4,
+									slidesPerView: 3,
 									spaceBetween: 20,
 								},
 								1024: {
-									slidesPerView: 5,
+									slidesPerView: 4,
 									spaceBetween: 20,
 								},
 								1280: {
+									slidesPerView: 5,
+									spaceBetween: 18,
+								},
+								1920: {
 									slidesPerView: 6,
 									spaceBetween: 18,
 								},
@@ -74,7 +78,7 @@ const Items = ({ item }) => {
 			key={item.id}
 			className=""
 		>
-			<div className="flex items-start justify-between p-8">
+			<div className="flex items-start justify-between p-4 xl:p-8">
 				<div>
 					<img
 						src={item.img}
@@ -85,7 +89,7 @@ const Items = ({ item }) => {
 				</div>
 				<PiQuotesFill className="text-[#9998E1] rotate-180 text-2xl" />
 			</div>
-			<p className="px-8 pb-8">{item.review}</p>
+			<p className="px-4 pb-4 text-sm xl:pb-8 xl:px-8 xl:text-base">{item.review}</p>
 		</div>
 	);
 };
