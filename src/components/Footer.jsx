@@ -44,7 +44,7 @@ const Footer = () => {
 							"repeating-linear-gradient(to right, #00000033 0, #00000033 15px, transparent 15px, transparent 20px) 1",
 					}}
 				>
-					<div className="flex flex-col items-center justify-between gap-y-1.5 xl:gap-y-3 xl:flex-col">
+					<div className="flex flex-col xl:flex-row items-center justify-between gap-y-1.5 xl:gap-y-3 xl:flex-col">
 						<p className="text-[20px] font-medium">Join our official channels</p>
 						<div className="text-[#00000080] text-[26px] flex justify-end items-center gap-x-4">
 							<FaSquareXTwitter />
